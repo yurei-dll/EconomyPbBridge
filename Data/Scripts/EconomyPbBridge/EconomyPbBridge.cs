@@ -1,14 +1,14 @@
 using Sandbox.ModAPI;
 using VRage.Game.Components;
 
-namespace EconomyDroneBridge
+namespace EconomyPbBridge
 {
     [MySessionComponentDescriptor(MyUpdateOrder.AfterSimulation)]
-    public class EconomyDroneBridgeSession : MySessionComponentBase
+    public class EconomyPbBridgeSession : MySessionComponentBase
     {
         public override void LoadData()
         {
-            MyAPIGateway.Utilities.ShowMessage("EconomyDroneBridge", "Loaded.");
+            MyAPIGateway.Utilities.ShowMessage("EconomyPbBridge", "Loaded.");
         }
 
         protected override void UnloadData()
