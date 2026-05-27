@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <OutputPath>Data/Scripts/EconomyPbBridge/bin/</OutputPath>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AssemblyName>EconomyPbBridge</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Sandbox.Game" HintPath="References/Sandbox.Game.dll" Private="false" />
+        <Reference Include="Sandbox.Common" HintPath="References/Sandbox.Common.dll" Private="false" />
+        <Reference Include="SpaceEngineers.Game" HintPath="References/SpaceEngineers.Game.dll" Private="false" />
+        <Reference Include="VRage.Game" HintPath="References/VRage.Game.dll" Private="false" />
+        <Reference Include="VRage" HintPath="References/VRage.dll" Private="false" />
+        <Reference Include="VRage.Library" HintPath="References/VRage.Library.dll" Private="false" />
+        <Reference Include="VRage.Math" HintPath="References/VRage.Math.dll" Private="false" />
+    </ItemGroup>
+</Project>
