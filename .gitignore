@@ -1,2 +1,47 @@
-*.env
-/References/
+# Build output
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Mono/.NET caches
+*.cache
+*.pdb
+
+# NuGet
+*.nupkg
+packages/
+
+# ILSpy/decompile dumps
+decompiled/
+
+# Temporary test exports
+test/
+tmp/
+
+# Space Engineers generated junk
+thumbs.db
+
+# Optional:
+# Ignore game DLL refs if you don't want giant binaries in git
+References/
+
+# Optional:
+# Ignore generated mod output
+Data/Scripts/*/bin/
